@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="title">
+      <h1>Weather App</h1>
+      <h4>a project of rf-gul</h4>
+
+    </div>
+    <div class="card">
+      <div class="search">
+        <input type="text" placeholder="Enter City Name" spellcheck="false" />
+        <button><img src="images/search.png" alt="Search Button" /></button>
+      </div>
+      <div class="error">
+        <p>Invalid City Name</p>
+      </div>
+      <div class="weather">
+        <img src="images/rain.png" alt="" class="weather-icon" />
+        <h1 class="temp">0°C</h1>
+        <h2 class="city">NULL</h2>
+
+        <h2 class="weather-name">NULL</h2>
+
+        <div class="temp-details">
+          <div class="col">
+            <img src="images/clear.png" alt="" />
+            <div>
+              <p class="min-temp">0%</p>
+              <p>Min Temp</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="images/clear.png" alt="" />
+            <div>
+              <p class="max-temp">0%</p>
+              <p>Max Temp</p>
+            </div>
+          </div>
+        </div>
+        <div class="details">
+          <div class="col">
+            <img src="images/humidity.png" alt="" />
+            <div>
+              <p class="humidity">0%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+       
+          <div class="col">
+            <img src="images/wind.png" alt="" />
+            <div>
+              <p class="wind-speed">0 KPH</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        
+        </div>
+        
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
