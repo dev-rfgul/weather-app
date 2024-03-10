@@ -1,6 +1,6 @@
 
 Weather App
-
+<img src="https://socialify.git.ci/dev-rfgul/portfolio/image?font=Inter&language=1&name=1&owner=1&pattern=Brick%20Wall&stargazers=1&theme=Auto" alt="portfolio" width="640" height="320" />
  I made this weather app using HTML, CSS, and JavaScript, and it was pretty cool to put together. Basically, I started off by laying out the structure of the app using HTML. I created different sections for displaying the weather information and added input fields for users to enter their location. Then, I jazzed it up a bit using CSS to make it look nice and neat. I wanted it to be user-friendly, so I spent some time styling it to make it visually appealing.
 
 Now, the real magic happened with JavaScript. I needed to fetch the weather data from an external source, so I found this awesome weather API. After signing up, I got an API key which allowed me to make requests to the API. Using JavaScript, I made asynchronous requests to the API, grabbed the weather data, and dynamically updated the HTML content to display it on the page. It was really cool to see the app come alive with real-time weather updates!
